@@ -14,18 +14,8 @@ app.set('view engine', 'ejs');
 
 // configure instagram app with client_id, client_secret, and access_token
 ig.use({
-  // get access token here: http://instagram.pixelunion.net/
   access_token: '370757080.1677ed0.ea004b1fca3b480cb70393fcafabc135',
 });
-
-// alternatively we can use the client_id and client_secret
-// for now we'll use the access_token way
-// ig.use({
-  // get these from when we create our app as an instagram developer
-  // https://www.instagram.com/developer/
-  // client_id: 'MY_CLIENT_ID',
-  // client_secret: 'MY_CLIENT_SECRET'
-// });
 
 // SET THE ROUTES
 // ===================================================
